@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Exibe o site corretamente com base no dispositivo do usuário -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | Single Price Grid Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  Join our community
+  <main>
+    <div class="card-content">
+      <div class="top">
+        <div class="texts">
+          <h1 id="title">Participe da nossa comunidade</h1>
+          <h2 id="description">Garantia de reembolso sem complicações por 30 dias</h2>
+          <p>Acesse nossa biblioteca completa de tutoriais juntamente com avaliações de código por especialistas.
+            Perfeito para desenvolvedores que levam a sério o aprimoramento de suas habilidades.</p>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="btn-left">
+          <h2>Assinatura Mensal</h2>
+          <p id="valor">$29</p>
+          <div id="mensal">
+            <span>por mês</span>
+          </div>
+          <p id="information">Full acess for less than $1 a day</p>
+          <div class="botao"><a href="#">Sign up</a></div>
 
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+        </div>
+        <div class="btn-right">
+          <h2>Por que nós</h2>
+          <ul>
+            <li>Tutoriais de especialistas do setor</li>
+            <li>Avaliação de código por colegas e especialistas</li>
+            <li>Exercícios de codificação</li>
+            <li>Acesso ao nosso repositório no GitHub</li>
+            <li>Fórum da comunidade</li>
+            <li>Baralho de fichas de estudo</li>
+            <li>Novos vídeos toda semana</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>
